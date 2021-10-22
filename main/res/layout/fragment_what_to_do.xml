@@ -1,0 +1,174 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wordpress.santorinitravelguide.guideofsantorini.what_to_do">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="   Once you are in Santorini, there are some things you must to do: a volcano trip, a tour of the island, a wine trip and, of course, one or more days to the beach! One day must end with an unforgettable sunset from Oia.
+\n  The island of Santorini is the result of a complex history of volcanic eruptions over about 2 million years, during which the island has changed its shape and size repeatedly. The most popular tour in Santorini is certainly the boat trip to the volcano and the hot springs. The tour, usually, begin in the old port of  Santorini, then go to the volcano,  walk on top of a still active volcano, see the caldera villages from an impressive spot and swim in thermal water with therapeutic ingredients. Some volcano boat tours continue to the tiny island of Thirassia and end up in Oia at the sunset time.
+"
+               android:textAppearance="@android:style/TextAppearance.Medium"
+               android:layout_marginBottom="16dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/hot_springs"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="16dp"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:text="  If you choose a tour of Santorini, spend a full day discovering Santorini’s ancient history, local culture, and famous views on this great-value highlights tour. Explore the Minoan archaeological site at Akrotiri, swim at the black-sand Perissa Beach, and observe traditional island life in the village of Megalochori. " />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/akrotiri_site"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="16dp"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:text="  It's not a secret that Santorini has some of the most amazing wineries and wine tours in the world. The vineyard of Santorini is believed to be the world’s oldest, still under continuous cultivation, but the actual age of the vines is under debate. The vines are grown in the “koulara” method, which means they are woven into continuous circles to form a basket for protection from the strong winds and harsh summer sun."/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/vita_de_vie"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="16dp"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:text="  So, a tour of the wineries it’s a must do in Santorini! There are a lot of offers for wine tours, with different option, from the tours and wine tasting which are offered by wineries (cool, but not very recommended because most wineries are small and hard to find if you don’t know the island well), up to very well-organized tours, with multiple wineries on the schedule and a lot of wine tasting (most tours include hotel pickup and drop off)."/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/santorini_wine"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="  After you finish the tour of Santorini, with wine tasting, Oia sunset and Volcano trip, it’s time to go to the beach!
+\n  The beaches in Santorini are much different than other beaches in Greece due to their special geographical features. Red and black volcanic pebbles lay the shores of Santorini beaches and steep cliffs provide a picturesque ambience.
+\n  The most famous of Santorini beaches is the Red beach, with black and red volcanic pebbles and hot water. It is at 12 Km south-west of Fira.
+"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:layout_marginBottom="16dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/red_beach"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="16dp"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:text="  Kamary beach, perhaps the most impressive beach of Santorini, is fully organised offering a wide range of facilities like sunbeds, umbrellas and various types of water sports. "/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/kamari_beach"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="16dp"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:text="  Perissa and Perivolos Beaches are essentially one very long beach that caters to the backpacker crowd and party scene (beach style, not clubs) but still has a wide range of accommodations and restaurants,  very crowded in summer.From Perissa, a small path crosses the mountain and leads to the ruins of Ancient Thera. The excursions can be made by foot or riding donkeys.  "/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/perissa_beach"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="16dp"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:text="  Another beach, the most family-friendly in Santorini, it's Monolithos Beach. It is long with black sand and shallow waters, well-organized with sunbeds and umbrellas. There are also trees at the back of the beach for shade seekers. Monolithos beach is very quiet and, because of the shallow slope of the seafloor, better for the kids."/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/monolitos_beach"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="16dp"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:text="  Columbo beach is the most isolated beach of the Santorini, in the north-est of the island. It is not organized, there are no sunbeds, umbrellas or canteens, and therefore you must come prepared carrying the essential supplies. Plus, it is nudism friendly."/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/columbo_beach"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="16dp"
+                android:text="  The nightlife in Santorini is concentrated in Fira, and in the seaside resorts of Kamari and Perissa.
+\n  In Fira are the largest and most popular club of the island. Enigma Club and Koo Club are two very popular and amazing clubs always overcrowded of people in a mood to dance and to have endless party. For those who want Greek music, traditional and modern, the best option is Mamounia Club, somethimes with live orchestra, that liven up the atmosphere with lots of dancing. They all boast marvelous cocktails and drinks!
+\n  The open-air beach bars and regular bars along the long promenade in Perissa and Kamari, such as the Beach Bar, the Tranquilo, the Albatross and the Love Boat to name a few, grow louder at night. They host various events with famous DJs and singers that lead to great parties until morning. The seaside bars and clubs, on the east part of the island, constitute a dominant party scene in Santorini that many people prefer for their night out, as they are bustling with activity and offer endless hours of pleasure and fun.
+"
+                android:textAppearance="@android:style/TextAppearance.Medium"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/koo_club"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp"/>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

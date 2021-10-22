@@ -1,0 +1,116 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.wordpress.santorinitravelguide.guideofsantorini.santorini">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:singleLine="false"
+
+        >
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:layout_marginBottom="16dp"
+
+
+       >
+
+
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="200dp"
+           android:src="@drawable/about_santorini"
+           android:scaleType="centerCrop"
+           android:layout_marginBottom="16dp"
+           />
+
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/primul"
+           android:singleLine="false"
+           android:text="   Santorini is the supermodel of the Greek islands, a head-turner whose face is instantly recognisable around the world: multicoloured cliffs soar out of a sea-drowned caldera, topped by drifts of whitewashed buildings. With its reputation for dazzling panoramas, romantic sunsets and volcanic-sand beaches, it’s hardly surprising the island features on so many travellers’ bucket lists."
+           android:textAppearance="@android:style/TextAppearance.Medium"
+          android:layout_marginBottom="16dp"
+           />
+
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="200dp"
+       android:src="@drawable/santorini2"
+       android:scaleType="centerCrop"
+       android:layout_marginBottom="16dp"
+       />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="  Santorini is considered to be the most sought after place for a romantic getaway in Greece, since there are not many places in the world where you can enjoy exquisitely clear waters while perched on the rim of a massive active volcano in the middle of the sea! The island has a growing reputation as a wedding destination for couples not only from Greece but from all over the world. A trip to Santorini with the other half is a dream for anyone who has seen at least one photo of the island’s famous Caldera and exchanging kisses beneath Santorini’s famous sunset is the ultimate romantic experience!"
+        android:layout_marginBottom="16dp"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        />
+
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="200dp"
+           android:src="@drawable/santorini3"
+           android:scaleType="centerCrop"
+           android:layout_marginBottom="16dp"/>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:text="   To reach Santorini you have two options: by plane or by boat!
+       \n   Santorini can be reached from most international airports via Athens with Aegean airways and Ryanair. The flying time from Athens to Santorini is 30-40 minutes. Nearly all international scheduled flights arriving in Athens allow adequate time for making the connecting flight to Santorini.
+       \n   Numerous charter flights from different European Cities fly directly to the island during the summer period. During the same period Santorini is also connected with flights to and from Thessaloniki and Heraklion.
+       \n   Another way to reach the island is by a daily year round ferry boat service from the port of Piraeus and almost all the Cycladic islands during summer . The boat trip takes approximately 5 – 9 hours depending on the ferry and the ports of call.
+       \n   Daily high speed boats are also available only during the summer period leaving from the port of Piraeus (the trip lasts about 4 – 5 hours) and from numerous other Cycladic islands and Crete.
+"
+           android:textAppearance="@android:style/TextAppearance.Medium"
+           android:layout_marginBottom="16dp"/>
+
+
+
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="200dp"
+           android:src="@drawable/santorini_port"
+           android:scaleType="centerCrop"
+           android:layout_marginBottom="16dp"/>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:maxLines="20"
+           android:text="   Once you are in Santorini, you’re wondering how do you get from the Santorini airport or port to Fira, Oia, and the rest of the island?
+        \n  The easiest and quickest way (but not the cheaper one) to get into Fira and to the rest of the island is by taxi.
+        \n  Another option is take the bus. In high season (roughly June to September) buses run every hour between Fira and the airpor or port t. If you want to go anywhere else other than Fira you’ll need to change buses in Fira (which is easy enough, but time consuming).
+        \n  Also, many hotels provide transportation from the port to their hotel. For some it’s free, for others it’s charged at a rate similar to a taxi or a bit more. Don’t bother pre-arranging pickup months in advance (when you book your hotel). Send an email to your hotel a few days before so the pickup details are fresh in their minds.
+"
+           android:textAppearance="@android:style/TextAppearance.Medium"
+           android:layout_marginBottom="16dp"/>
+
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="200dp"
+           android:src="@drawable/santorini_transfer"
+           android:scaleType="centerCrop"
+           android:layout_marginBottom="16dp"/>
+
+
+
+   </LinearLayout>
+
+
+
+
+</ScrollView>
+</FrameLayout>

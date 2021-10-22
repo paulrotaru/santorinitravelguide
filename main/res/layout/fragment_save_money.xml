@@ -1,0 +1,93 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wordpress.santorinitravelguide.guideofsantorini.save_money">
+
+    <!-- TODO: Update blank fragment layout -->
+   <ScrollView
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent"
+       android:layout_margin="16dp">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="  Accomodation
+\n The best places to stay in Santorini are the villages of Fira, Oia, Imerovigli, and Firostefani. These towns are located on the Santorini caldera and have incredible views of the volcano, sea, and sunset. All of these towns are on the west side of Santorini.
+\n Tips
+\n Don’t choose a Caldera view hotel ! It’s very expensive! Choose a hotel back from the cliff (which means it is cheaper and is a good choice for travelers on a budget). My recommandation: Grande Murano (only 5 minutes walking from the center of Fira,  close to shops and restaurants, friendly owner, clean rooms).
+"
+        android:layout_marginBottom="16dp"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        />
+
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="200dp"
+           android:src="@drawable/grande_murano"
+           android:scaleType="centerCrop"
+           android:layout_marginBottom="16dp" />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:text="  Eat
+   \n If you decide to eat or drink in a taverna overlooking the caldera or having a good view to a sunset, expect higher prices than a similar establishment in one of the many side-streets as you are charged extra for the view –- but what a view!
+   \n Tips
+   \n To save money, stay away from places that are overtly commercial and go to the family run fish taverns located nearby the smaller beaches and communities. My recommandation: Captain Loizos in Monolithos (delicious Greek food in a relaxed and friendly setting).
+"
+           android:textAppearance="@android:style/TextAppearance.Medium"
+           android:layout_marginBottom="16dp"/>
+
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="200dp"
+           android:src="@drawable/loizos_taverna"
+           android:scaleType="centerCrop"
+           android:layout_marginBottom="16dp" />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:text="  Things to do
+   \n Walk along the caldera from Fira to Oia. It’s amazing!
+   \n Go to  Monastery of Prophet Elias in Pyrgos! Is built on the highest peak of Santorini, at 565 meters above the sea. The view of the ocean, beaches, and island from up high is incredible.Today the Monastery of Prophet Elias hosts an important collection of rare ecclesiastical items, hand-written books and Byzantine icons.
+"
+           android:textAppearance="@android:style/TextAppearance.Medium"
+           android:layout_marginBottom="16dp"/>
+
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="200dp"
+           android:src="@drawable/pyrgos_monastery"
+           android:scaleType="centerCrop"
+           android:layout_marginBottom="16dp" />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:text="  Tips
+   \n Take a suovlaki from Obelix (in the center of Fira), a beer (from local shops, not from bar or restaurants), and go to the Monastery of Agios Nikolaos in Firostefani. There you have the best view of caldera while enjoying the meal!
+"
+           android:textAppearance="@android:style/TextAppearance.Medium"
+           android:layout_marginBottom="16dp"/>
+
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="200dp"
+           android:src="@drawable/firostefani_view"
+           android:scaleType="centerCrop"
+           android:layout_marginBottom="16dp" />
+
+
+
+   </LinearLayout>
+
+
+   </ScrollView>
+</FrameLayout>

@@ -1,0 +1,117 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.wordpress.santorinitravelguide.guideofsantorini.sleep_and_eat">
+
+<!-- TODO: Update blank fragment layout -->
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="  Santorini offers a wide variety of quality hotels, unique hotel apartments and elegant suite hotels. Besides the style and character of authentic island architecture, most of the accommodations on Santorini are well organized with every modern convenience to meet the requirements of today’s travelers. Santorini offers many accommodation proposals that meet any budget."
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:layout_marginBottom="16dp"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/santorini_hotels"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="  Stay in one of the four towns (Fira, Oia, Imerovigli, and Firostafani) that are located on the Santorini cliff. These towns have great views of the caldera, volcano, and sunset.
+\n  These towns have great views of the caldera, volcano, and sunset.
+\n  Best places for stay in Fira are Grande Murano, Villa Murano, Hotel Thireas, Georgia Studio.
+"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:layout_marginBottom="16dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/villa_murano"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="  For Oia, the best rooms you will find at Canaves Oia Hotel, Katikies Hotel and Ikies – Traditional Houses
+\n  In Imerovigli, my recomandations areGrace Santorini, Astra Suites and Chromata Hotel  .
+\n  Same, in Firostefani you could go toTsitouras Collection, The Belvedere and Homeric Poems.
+"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:layout_marginBottom="16dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/belvedere"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="  If you want to spend more time at the beach, then you have to stay at Perissa, Perivolos or Kamari. Here are some nice hotels, like Bella Santorini, Marillia Village, Blue Waves and many others."
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:layout_marginBottom="16dp"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/blue_waves"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="  About the food, everywhere in Santorini you will eat well! But, in my opinion, the best place for eating is the Selene restaurant in Pyrgos."
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:layout_marginBottom="16dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/selene"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="  Other good places for a good meal are Aktaion, in Firostefani, Metaxy Mas in Pyrgos, Naoussa Restaurant in Fira, Yalos Beach Bar Restaurant at Exo Gialos Beach, Lotza in Oia."
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:layout_marginBottom="16dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/yalos"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="16dp"/>
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
+</FrameLayout>

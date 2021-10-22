@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Santorini travel guide</string>
+    <string name="santorini_fragment">WELCOME TO SANTORINI</string>
+    <string name="save_money_fragment">SAVE MONEY</string>
+    <string name="sleep_and_eat">SLEEP AND EAT</string>
+    <string name="what_to_do">WHAT TO DO</string>
+
+
+
+     </resources>
